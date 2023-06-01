@@ -1,0 +1,47 @@
+name: ktaxi_clone
+description: A new Flutter project.
+
+version: 1.0.0+1
+
+environment:
+  sdk: '>=2.19.6 <3.0.0'
+
+dependencies:
+  flutter:
+    sdk: flutter
+  cupertino_icons: ^1.0.2
+  provider: ^6.0.3
+  connectivity_plus: ^3.0.6
+
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^2.0.0
+
+flutter:
+
+  uses-material-design: true
+  
+  assets:
+    - assets/image/
+    - assets/audio/warning.mp3
+    - assets/audio/alarm.mp3
+    - assets/audio/noservice.mp3
+    - assets/audio/noticearrival.mp3
+    - assets/audio/startservice.mp3
+    - assets/audio/enviochat.mp3
+
+  fonts:
+    - family: subtitle
+      fonts:
+        - asset: assets/fonts/subtitle.otf
+    - family: title
+      fonts:
+        - asset: assets/fonts/title.otf
+    - family: logo
+      fonts:
+        - asset: assets/fonts/logo.otf
+    - family: alert
+      fonts:
+        - asset: assets/fonts/alerta.ttf
